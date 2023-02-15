@@ -14,7 +14,7 @@ var mensagem2;
 
 
 const client = new Paho.Client(
-    'broker.emqx.io',
+    '10.44.1.35',
     8083,
     '/'
   )
