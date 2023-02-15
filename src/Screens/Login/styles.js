@@ -38,7 +38,7 @@ export default StyleSheet.create({
         width: 320,
         fontSize: 18,
         fontWeight: 'bold',
-        backgroundColor: '#7B68EE',
+        backgroundColor: '#0d8203',
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 12,
