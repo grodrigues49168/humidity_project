@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text } from 'react-native';
 import Paho from 'paho-mqtt';
-import Styles1 from '../Umidade/styles';
 import Styles from './styles';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
@@ -30,9 +29,9 @@ export default function App() {
   }, []);
 
   return (
-    <View style={Styles1.container}>
-      <Text style={Styles1.text}>umidade do solo</Text>
-      <Text style={Styles1.text}> {moisture}% <Icon color={'#fff'}  name='burn' size={14}  /></Text>
+    <View style={Styles.container}>
+      <Text style={Styles.text}>umidade do solo</Text>
+      <Text style={Styles.text}> {moisture}% <Icon color={'#fff'}  name='burn' size={14}  /></Text>
     </View>
   );
 }
